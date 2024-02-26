@@ -1,0 +1,175 @@
+.employee{
+    display: flex;
+}
+/* body {
+  overflow: hidden;
+} */
+
+.sidebar {
+    /* width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff; */
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 15px;
+      /* border-top-left-radius: 15px; */
+      border-bottom-right-radius:15px;
+      /* border-bottom-left-radius:15px; */
+      width:200px;
+      height:100vh;
+      box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+  }
+ 
+  .content {
+    flex: 1;
+    padding: 20px;
+    transform: translate(0,55%);
+  }
+  #searchbar
+  {
+    width: 260px; 
+    height:50px;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    border-radius: 40px;
+    border: 1px solid;
+  }
+  .link{
+    text-decoration: none;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+  .heading_emp{
+    margin-top: 10px;
+    margin-left: 700px;
+  }
+  .tableemp {
+    margin-top: 100px;
+    margin-left: -350px;
+    margin-right: 300px;
+    size: 200%;
+    width: 950px;
+    border-collapse: collapse;
+    background-color: white /* Change the background color as per your preference */
+  }
+  
+  .tableemp th, .tableemp td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .tableemp th {
+    background-color: #333;
+    color: black;
+  }
+  
+  .tableemp th, .tableemp tr {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  .bdr {
+    border-radius: 10px;
+    overflow: hidden;
+    animation: animate-comp 0.4s alternate ease-in-out;
+  }
+  .tableemp-striped>thead>tr>th{
+    background-color: #4f92ff;
+  }
+  .tableemp-striped>tbody>tr{
+  }
+  .tableemp-item{
+    height:25px;
+    vertical-align: middle;
+  }
+  
+  .tableemp-striped>tbody>tr:nth-child(even)>td,
+  .tableemp-striped>tbody>tr:nth-child(even)>th {
+    background-color:#c4e0ff 
+  }
+  .tableemp-striped>tbody>tr:nth-child(odd)>td,
+  .tableemp-striped>tbody>tr:nth-child(odd)>th {
+    background-color:rgb(244 250 255)
+  }
+  
+
+  .lists .tableemp {
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+    transition: all 300ms ease;
+  }
+  
+  .lists {
+    margin-top: 2rem;
+  }
+  
+  .lists h2 {
+    margin-bottom: 0.8rem;
+  }
+  
+  .tableemp tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid white;
+  }
+  
+  #side-bar-el{
+    border-top-right-radius: 15px;
+    /* border-top-left-radius: 15px; */
+    border-bottom-right-radius:15px;
+    /* border-bottom-left-radius:15px; */
+    /* width:250px; */
+    height:100vh;
+    box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+  }
+  
+  #nav-bar{
+    margin:-10px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    height:90vh;
+  }
+  
+  .nav-element {
+    width: 150px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border: none;
+    background-color: #4f92ff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 25px;
+  }
+  
+  .nav-element p {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  
+  
+  .nav-element:hover{
+    background-color: #c4e0ff;
+    opacity:1;
+  }
+  
+  .nav-icon{
+    scale:1.5;
+  }
+  

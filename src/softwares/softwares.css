@@ -1,0 +1,203 @@
+.employee{
+    display: flex;
+}
+
+.sidebar {
+    /* width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff; */
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 15px;
+      /* border-top-left-radius: 15px; */
+      border-bottom-right-radius:15px;
+      /* border-bottom-left-radius:15px; */
+      width:200px;
+      height:100vh;
+      box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+  }
+  /* .headeremp{
+    margin-left: -200px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    background-color: black;
+  } */
+  .content {
+    flex: 1;
+    padding: 20px;
+    transform: translate(0,55%);
+  }
+  
+  .button {
+    margin-bottom: 20px;
+  }
+  .link{
+    text-decoration: none;
+  }
+  .heading_soft{
+    margin-top: 50px;
+    margin-left: -400px;
+  }
+  .tablesoft {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 300px;
+    size: 200%;
+    width: 950px;
+    border-collapse: collapse;
+    background-color: white /* Change the background color as per your preference */
+  }
+  
+  .tablesoft th, .tablesoft td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .tablesoft th {
+    background-color: #333;
+    color: black;
+  }
+  
+  .tablesoft th, .tablesoft tr {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  .bdr {
+    border-radius: 10px;
+    overflow: hidden;
+    animation: animate-comp 0.4s alternate ease-in-out;
+  }
+  .tablesoft-striped>thead>tr>th{
+    background-color: #4f92ff;
+  }
+  .tablesoft-striped>tbody>tr{
+  }
+  .tablesoft-item{
+    height:25px;
+    vertical-align: middle;
+  }
+  
+  .tablesoft-striped>tbody>tr:nth-child(even)>td,
+  .tablesoft-striped>tbody>tr:nth-child(even)>th {
+    background-color:#c4e0ff 
+  }
+  .tablesoft-striped>tbody>tr:nth-child(odd)>td,
+  .tablesoft-striped>tbody>tr:nth-child(odd)>th {
+    background-color:rgb(244 250 255)
+  }
+  
+  
+  .lists .tablesoft {
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+    transition: all 300ms ease;
+  }
+  
+  .lists {
+    margin-top: 2rem;
+  }
+  
+  .lists h2 {
+    margin-bottom: 0.8rem;
+  }
+  
+  .tablesoft tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid white;
+  }
+  
+  #side-bar-el{
+    border-top-right-radius: 15px;
+    /* border-top-left-radius: 15px; */
+    border-bottom-right-radius:15px;
+    /* border-bottom-left-radius:15px; */
+    /* width:250px; */
+    height:100vh;
+    box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.15);
+  }
+  
+  #nav-bar{
+    margin:-10px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    height:90vh;
+  }
+  
+  .nav-element {
+    width: 150px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border: none;
+    background-color: #4f92ff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 25px;
+  }
+  
+  .nav-element p {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  
+  
+  .nav-element:hover{
+    background-color: #c4e0ff;
+    opacity:1;
+  }
+  
+  .nav-icon{
+    scale:1.5;
+  }
+  
+  .insights {
+    display: grid;
+    grid-template-columns: repeat(4, 200px); /* Adjust width of each card */
+    gap: 1.6rem;
+    margin-left: 900px;
+    margin-top: 1250px; /* Adjust margin as needed */
+    margin-bottom: 100px;
+    /* width: 100px;
+    height: 100px; */
+    justify-content: center;
+  }
+  
+  .insights > div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 950px;
+    margin-bottom: 2500px;
+    /* margin-left: 100px; */
+    width: 150px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+  .insights > div:hover {
+    box-shadow: -2px -5px 10px 1px rgba(0, 0, 0, 0.15);
+    background-color: var(--accent); /* Adjust accent color as needed    */
+  }
+  
+  .insights h3 {
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+    height: 50px;
+    width: 50px;
+  }
